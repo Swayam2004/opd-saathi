@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <rect width="1920" height="1080" fill="#0f5f5c"/>
+  <g transform="translate(810 170) scale(2.5)"><rect width="120" height="120" rx="28" fill="#ffffff"/>
+  <path d="M22 98 H98" stroke="#0f5f5c" stroke-width="5" stroke-linecap="round" stroke-dasharray="1 11" opacity="0.9"/>
+  <path d="M60 18c-16 0-29 13-29 29 0 21 29 50 29 50s29-29 29-50c0-16-13-29-29-29z" fill="#0f5f5c"/>
+  <circle cx="60" cy="47" r="11" fill="#ffffff"/></g>
+  <text x="960" y="620" text-anchor="middle" font-family="'Segoe UI', 'Nirmala UI', Arial, sans-serif" font-size="128" font-weight="700" fill="#ffffff">OPD Saathi</text>
+  <text x="960" y="712" text-anchor="middle" font-family="'Segoe UI', 'Nirmala UI', Arial, sans-serif" font-size="60" font-weight="600" fill="#cdeee9">ओपीडी साथी</text>
+  <text x="960" y="810" text-anchor="middle" font-family="'Segoe UI', 'Nirmala UI', Arial, sans-serif" font-size="44" fill="#ffffff">From OPD slip to the right room.</text>
+  <text x="960" y="980" text-anchor="middle" font-family="'Segoe UI', 'Nirmala UI', Arial, sans-serif" font-size="30" fill="#cdeee9">Team 3Piece · HackCache '26 · hackcache26-opd-saathi.onrender.com</text>
+</svg>
