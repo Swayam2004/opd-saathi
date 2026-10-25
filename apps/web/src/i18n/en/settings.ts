@@ -1,0 +1,18 @@
+export const settings = {
+  'settings.title': 'Settings',
+  'settings.language': 'Language',
+  'settings.textSize': 'Text size',
+  'settings.textSize.normal': 'Normal',
+  'settings.textSize.large': 'Large',
+  'settings.textSize.largest': 'Largest',
+  'settings.contrast': 'High contrast',
+  'settings.contrast.hint': 'Darker text and stronger colours',
+  'settings.readAloud': 'Read everything aloud',
+  'settings.avoidStairs': 'Avoid stairs',
+  'settings.assisted': 'Someone is helping me',
+  'settings.on': 'On',
+  'settings.off': 'Off',
+  'settings.noHindiVoice': 'This phone has no Hindi voice, so Listen will not work in Hindi.',
+  'settings.helpline104': 'Health advice: call 104 (not for emergencies)',
+  'settings.staffLink': 'For hospital staff',
+} as const;

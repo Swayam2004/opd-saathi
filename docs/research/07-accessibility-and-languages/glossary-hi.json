@@ -1,0 +1,764 @@
+{
+  "meta": {
+    "ticket": "#8",
+    "drafted": "2026-10-24",
+    "drafter": "AI draft (Claude). No native speaker has reviewed any string in this file.",
+    "status": "needsNativeCheck is true on every entry on purpose. Check priority 'high' = medical, emergency, status or placeholder text. Check priority 'normal' = place names and loanwords.",
+    "register": "Spoken Hindi a Class 8 reader knows. Common English words are written in Devanagari (OPD, token, lift) instead of coined Sanskrit terms. Polite 'aap' form. No gendered first-person verbs. Short sentences.",
+    "placeholders": "{n} number, {m} minutes, {time} clock time, {room} room name. Keep them identical to the English key.",
+    "glossField": "hiGloss is the one-line explanation shown the first time the term appears (brief: 'every term gets a one-line explanation').",
+    "basisCodes": {
+      "S-GOV-HI": "Only 'पंजीकरण' (registration) was seen in a government Hindi page title (ors.gov.in Hindi portal, via search result). Everything else is DRAFT.",
+      "S-WHO-MOH": "Meaning taken from the WHO or MoHFW English source named in the note. The Hindi is our draft.",
+      "DRAFT": "Our own plain-language draft with no Hindi government source."
+    }
+  },
+  "entries": [
+    {
+      "key": "opd",
+      "category": "place",
+      "en": "OPD",
+      "hi": "ओपीडी",
+      "hiGloss": "डॉक्टर को दिखाने की जगह, भर्ती हुए बिना",
+      "formal": "बाह्य रोगी विभाग",
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "token",
+      "category": "queue",
+      "en": "Token",
+      "hi": "टोकन",
+      "hiGloss": "आपकी बारी का नंबर",
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "opd_slip",
+      "category": "queue",
+      "en": "OPD slip",
+      "hi": "ओपीडी पर्ची",
+      "hiGloss": "डॉक्टर को दिखाने की पर्ची",
+      "basis": "DRAFT",
+      "note": "पर्ची is common spoken usage; the search summary of hospital pages used it but the page text was not read directly",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "registration",
+      "category": "queue",
+      "en": "Registration",
+      "hi": "पंजीकरण",
+      "hiGloss": "अपना नाम लिखवाना",
+      "basis": "S-GOV-HI",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "registration_counter",
+      "category": "place",
+      "en": "Registration counter",
+      "hi": "पंजीकरण काउंटर",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "help_desk",
+      "category": "place",
+      "en": "Help desk",
+      "hi": "हेल्प डेस्क",
+      "hiGloss": "यहाँ स्टाफ़ आपकी मदद करेंगे",
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "emergency",
+      "category": "place",
+      "en": "Emergency",
+      "hi": "इमरजेंसी",
+      "hiGloss": "तुरंत इलाज का विभाग। यहाँ टोकन नहीं चाहिए",
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "casualty",
+      "category": "place",
+      "en": "Casualty",
+      "hi": "कैज़ुअल्टी",
+      "hiGloss": "इमरजेंसी विभाग का दूसरा नाम",
+      "formal": "आपातकालीन विभाग",
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "ward",
+      "category": "place",
+      "en": "Ward",
+      "hi": "वार्ड",
+      "hiGloss": "जहाँ भर्ती मरीज़ रहते हैं",
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "pharmacy",
+      "category": "place",
+      "en": "Pharmacy",
+      "hi": "दवा काउंटर",
+      "hiGloss": "यहाँ से दवा मिलती है",
+      "alt": "फार्मेसी",
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "lab",
+      "category": "place",
+      "en": "Laboratory (blood tests)",
+      "hi": "लैब (खून की जाँच)",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "xray",
+      "category": "place",
+      "en": "X-ray",
+      "hi": "एक्स-रे",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "lift",
+      "category": "place",
+      "en": "Lift",
+      "hi": "लिफ्ट",
+      "hiGloss": "ऊपर-नीचे जाने की मशीन",
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "stairs",
+      "category": "place",
+      "en": "Stairs",
+      "hi": "सीढ़ियाँ",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "ramp",
+      "category": "place",
+      "en": "Ramp",
+      "hi": "रैंप",
+      "hiGloss": "सीढ़ी की जगह ढलान वाला रास्ता",
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "wheelchair_point",
+      "category": "place",
+      "en": "Wheelchair point",
+      "hi": "व्हीलचेयर की जगह",
+      "hiGloss": "यहाँ से व्हीलचेयर मिलती है",
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "toilets",
+      "category": "place",
+      "en": "Toilets",
+      "hi": "शौचालय",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "drinking_water",
+      "category": "place",
+      "en": "Drinking water",
+      "hi": "पीने का पानी",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "main_entrance",
+      "category": "place",
+      "en": "Main entrance",
+      "hi": "मुख्य द्वार",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "waiting_hall",
+      "category": "place",
+      "en": "Waiting hall",
+      "hi": "इंतज़ार हॉल",
+      "hiGloss": "यहाँ बैठकर अपनी बारी का इंतज़ार करें",
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "nurses_station",
+      "category": "place",
+      "en": "Nurses' station",
+      "hi": "नर्स स्टेशन",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "room",
+      "category": "place",
+      "en": "Room",
+      "hi": "कमरा",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "ground_floor",
+      "category": "place",
+      "en": "Ground floor",
+      "hi": "भूतल (ग्राउंड फ्लोर)",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "high",
+      "note": "Floor words drive wayfinding. Confirm that पहली मंज़िल means first floor above ground for local readers."
+    },
+    {
+      "key": "first_floor",
+      "category": "place",
+      "en": "First floor",
+      "hi": "पहली मंज़िल",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "second_floor",
+      "category": "place",
+      "en": "Second floor",
+      "hi": "दूसरी मंज़िल",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "dept_general_medicine",
+      "category": "department",
+      "en": "General Medicine (fever, cough, BP, sugar)",
+      "hi": "सामान्य चिकित्सा (बुखार, खाँसी, बीपी, शुगर)",
+      "hiGloss": null,
+      "alt": "जनरल मेडिसिन",
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "dept_children",
+      "category": "department",
+      "en": "Children",
+      "hi": "बच्चों का विभाग",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "dept_women",
+      "category": "department",
+      "en": "Women and pregnancy",
+      "hi": "महिला रोग और गर्भावस्था",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "dept_bones",
+      "category": "department",
+      "en": "Bones and joints",
+      "hi": "हड्डी और जोड़",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "dept_ent",
+      "category": "department",
+      "en": "Ear, nose and throat",
+      "hi": "कान, नाक और गला",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "dept_eyes",
+      "category": "department",
+      "en": "Eyes",
+      "hi": "आँख",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "dept_skin",
+      "category": "department",
+      "en": "Skin",
+      "hi": "त्वचा",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "queue",
+      "category": "queue",
+      "en": "Queue",
+      "hi": "कतार",
+      "hiGloss": "बारी का इंतज़ार करते लोग",
+      "alt": "लाइन",
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "people_ahead",
+      "category": "queue",
+      "en": "{n} people ahead of you",
+      "hi": "आपके आगे {n} लोग हैं",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "now_serving",
+      "category": "queue",
+      "en": "Now serving",
+      "hi": "अभी इस नंबर की बारी है",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "your_turn_close",
+      "category": "queue",
+      "en": "Your turn is close",
+      "hi": "आपकी बारी पास है",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "called",
+      "category": "queue",
+      "en": "You have been called. Please go to {room} now.",
+      "hi": "आपको बुलाया गया है। अभी {room} में जाइए।",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "estimated_wait",
+      "category": "queue",
+      "en": "About {m} minutes",
+      "hi": "लगभग {m} मिनट",
+      "hiGloss": "यह अंदाज़ा है, पक्का समय नहीं",
+      "basis": "DRAFT",
+      "note": "Keep 'about' on every wait. Never add 'you can wait'.",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "no_show",
+      "category": "staff",
+      "en": "No-show",
+      "hi": "बुलाने पर नहीं आए",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "send_to_end",
+      "category": "staff",
+      "en": "Send to end of queue",
+      "hi": "कतार में सबसे पीछे भेजें",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "move_department",
+      "category": "staff",
+      "en": "Move to another department",
+      "hi": "दूसरे विभाग में भेजें",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "call_next",
+      "category": "staff",
+      "en": "Call next",
+      "hi": "अगला टोकन बुलाएँ",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "doctor",
+      "category": "person",
+      "en": "Doctor",
+      "hi": "डॉक्टर",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "doctor_in_room",
+      "category": "doctor_status",
+      "en": "The doctor is in the room",
+      "hi": "डॉक्टर कमरे में हैं",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "doctor_on_break",
+      "category": "doctor_status",
+      "en": "The doctor is on a break until {time}",
+      "hi": "डॉक्टर {time} तक ब्रेक पर हैं",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "doctor_late",
+      "category": "doctor_status",
+      "en": "The doctor is running {m} minutes late",
+      "hi": "डॉक्टर {m} मिनट देरी से चल रहे हैं",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "patient",
+      "category": "person",
+      "en": "Patient",
+      "hi": "मरीज़",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "helper",
+      "category": "person",
+      "en": "Helper",
+      "hi": "मदद करने वाला व्यक्ति",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "assisted_mode",
+      "category": "mode",
+      "en": "Someone is helping me",
+      "hi": "कोई मेरी मदद कर रहा है",
+      "hiGloss": "बड़े अक्षर, सब कुछ बोलकर सुनाया जाएगा",
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "avoid_stairs",
+      "category": "mode",
+      "en": "Avoid stairs",
+      "hi": "सीढ़ियों से बचें",
+      "hiGloss": "रास्ता सिर्फ़ लिफ्ट या रैंप से होगा",
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "listen",
+      "category": "mode",
+      "en": "Listen",
+      "hi": "सुनें",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "steps",
+      "category": "route",
+      "en": "Steps",
+      "hi": "रास्ता",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "landmark",
+      "category": "route",
+      "en": "Landmark",
+      "hi": "पहचान",
+      "hiGloss": "वहाँ दिखने वाली कोई चीज़",
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "lost",
+      "category": "route",
+      "en": "I can't find the way",
+      "hi": "रास्ता नहीं मिल रहा",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "note": "Neutral wording on purpose. 'मैं खो गया/गई' needs a gendered verb.",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "urgent_help",
+      "category": "emergency",
+      "en": "I need urgent help",
+      "hi": "मुझे अभी मदद चाहिए",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "urgent_sent",
+      "category": "emergency",
+      "en": "Staff are being told now. If you can, go to Emergency or call out to any staff member.",
+      "hi": "स्टाफ़ को अभी बताया जा रहा है। हो सके तो इमरजेंसी जाइए या किसी भी स्टाफ़ को आवाज़ दीजिए।",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "note": "Safety wording. Needs a clinician or hospital staff read, not only a language check.",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    {
+      "key": "name",
+      "category": "form",
+      "en": "Name",
+      "hi": "नाम",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "age",
+      "category": "form",
+      "en": "Age",
+      "hi": "उम्र",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "gender",
+      "category": "form",
+      "en": "Gender",
+      "hi": "लिंग",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "mobile",
+      "category": "form",
+      "en": "Mobile number (optional)",
+      "hi": "मोबाइल नंबर (ज़रूरी नहीं)",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    },
+    {
+      "key": "not_sure_help_desk",
+      "category": "form",
+      "en": "Not sure? Ask at the help desk",
+      "hi": "पक्का नहीं पता? हेल्प डेस्क पर पूछिए",
+      "hiGloss": null,
+      "basis": "DRAFT",
+      "needsNativeCheck": true,
+      "checkPriority": "normal"
+    }
+  ],
+  "emergency": {
+    "intro": {
+      "en": "Any of these? Go to Emergency now. You don't need a token.",
+      "hi": "इनमें से कुछ भी हो? अभी इमरजेंसी जाइए। टोकन की ज़रूरत नहीं है।",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    "incomplete": {
+      "en": "This list is not complete. If you are worried, tell any staff member.",
+      "hi": "यह सूची पूरी नहीं है। चिंता हो तो किसी भी स्टाफ़ को बताइए।",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    "go_now": {
+      "en": "Go to Emergency now, or tell any staff member.",
+      "hi": "अभी इमरजेंसी जाइए, या किसी भी स्टाफ़ को बताइए।",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    "numbers": {
+      "en": "Call 112 for any emergency. Call 108 for an ambulance.",
+      "hi": "किसी भी इमरजेंसी में 112 पर कॉल करें। एम्बुलेंस के लिए 108 पर कॉल करें।",
+      "needsNativeCheck": true,
+      "checkPriority": "high"
+    },
+    "signs": [
+      {
+        "key": "sign_chest",
+        "inBrief": true,
+        "en": "Chest pain or pressure, or pain that spreads to the arm, jaw or back",
+        "hi": "सीने में दर्द या दबाव, या दर्द जो बाँह, जबड़े या पीठ तक फैले",
+        "source": "WHO CVD fact sheet (symptoms list)",
+        "needsNativeCheck": true,
+        "checkPriority": "high"
+      },
+      {
+        "key": "sign_breathing",
+        "inBrief": true,
+        "en": "Trouble breathing",
+        "hi": "साँस लेने में तकलीफ़",
+        "source": "WHO CVD fact sheet",
+        "needsNativeCheck": true,
+        "checkPriority": "high"
+      },
+      {
+        "key": "sign_bleeding",
+        "inBrief": true,
+        "en": "Heavy bleeding, or bleeding that will not stop",
+        "hi": "बहुत ज़्यादा खून बहना, या खून का बहना रुक न रहा हो",
+        "source": "WHO BEC (life-threatening bleeding) and WHO maternal mortality fact sheet",
+        "needsNativeCheck": true,
+        "checkPriority": "high"
+      },
+      {
+        "key": "sign_faint",
+        "inBrief": true,
+        "en": "Fainting, or cannot be woken",
+        "hi": "बेहोश हो जाना, या जगाने पर भी न जागना",
+        "source": "WHO CVD fact sheet (fainting or unconsciousness); NHM IMNCI (lethargic or unconscious)",
+        "needsNativeCheck": true,
+        "checkPriority": "high"
+      },
+      {
+        "key": "sign_stroke",
+        "inBrief": true,
+        "en": "Sudden weakness or numbness on one side, a drooping face, slurred speech or sudden loss of sight",
+        "hi": "अचानक एक तरफ़ कमज़ोरी या सुन्न होना, चेहरा टेढ़ा हो जाना, बोली लड़खड़ाना या अचानक दिखना बंद हो जाना",
+        "source": "WHO stroke fact sheet",
+        "note": "Brief names only weakness and drooping face. Speech and sight added from WHO.",
+        "needsNativeCheck": true,
+        "checkPriority": "high"
+      },
+      {
+        "key": "sign_injury",
+        "inBrief": true,
+        "en": "Serious injury, such as a bad fall, a road accident, a deep cut or a burn",
+        "hi": "गंभीर चोट, जैसे बुरी तरह गिरना, सड़क हादसा, गहरा कट या जलना",
+        "source": "WHO BEC covers trauma care but gives no patient-facing list. Examples are our inference.",
+        "needsNativeCheck": true,
+        "checkPriority": "high"
+      },
+      {
+        "key": "sign_fits",
+        "inBrief": false,
+        "en": "Fits (the body jerks and the person does not respond)",
+        "hi": "दौरा पड़ना (शरीर झटके खाए और होश न रहे)",
+        "source": "NHM IMNCI (convulsions); MoHFW Safe Motherhood booklet (convulsions, fits)",
+        "note": "Suggested addition. Not in the brief's list.",
+        "needsNativeCheck": true,
+        "checkPriority": "high"
+      },
+      {
+        "key": "sign_pregnancy",
+        "inBrief": true,
+        "en": "A pregnant woman with bleeding, very bad stomach pain, fits, or a baby that is moving less",
+        "hi": "गर्भवती महिला को खून आना, पेट में बहुत तेज़ दर्द, दौरे पड़ना, या बच्चे की हलचल कम होना",
+        "source": "MoHFW My Safe Motherhood booklet (danger signals); fits and reduced movement added from it",
+        "needsNativeCheck": true,
+        "checkPriority": "high"
+      },
+      {
+        "key": "sign_child",
+        "inBrief": true,
+        "en": "A child who cannot drink or feed, vomits everything, has fits, or is very sleepy and hard to wake",
+        "hi": "बच्चा जो पी या खा न पा रहा हो, सब कुछ उल्टी कर दे, जिसे दौरे पड़ें, या जो बहुत सुस्त हो और मुश्किल से जागे",
+        "source": "NHM IMNCI Module 5 and WHO IMCI general danger signs",
+        "note": "Replaces the brief's vague 'very unwell' with the IMNCI general danger signs.",
+        "needsNativeCheck": true,
+        "checkPriority": "high"
+      }
+    ],
+    "neverSay": [
+      {
+        "en": "You can wait",
+        "hi": "आप इंतज़ार कर सकते हैं"
+      },
+      {
+        "en": "This is not serious / mild / non-urgent",
+        "hi": "यह गंभीर नहीं है / हल्का है / ज़रूरी नहीं है"
+      },
+      {
+        "en": "Your case is urgent / is an emergency (the app does not decide)",
+        "hi": "आपका मामला इमरजेंसी है (ऐप तय नहीं करता)"
+      }
+    ]
+  }
+}

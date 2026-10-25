@@ -1,0 +1,8 @@
+{
+  "name": "opd-saathi-research-06",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test *.test.ts"
+  }
+}

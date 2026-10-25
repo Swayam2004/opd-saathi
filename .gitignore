@@ -1,0 +1,23 @@
+node_modules/
+dist/
+build/
+.turbo/
+coverage/
+*.log
+.DS_Store
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# personal hackathon artefacts (team code, ticket number)
+HACKCACHE-TICKET-*.png
+hackcache.ics
+HackCache'26 Logo.png
+
+# editor and agent scratch
+.vscode/
+.idea/
+.claude/settings.local.json
+.claude/worktrees/

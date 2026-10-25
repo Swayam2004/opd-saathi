@@ -1,0 +1,75 @@
+@import 'tailwindcss';
+
+/* Colour tokens. High contrast swaps them all; every pair keeps WCAG AA or better. */
+:root {
+  --page: #f6f4ef;
+  --card: #ffffff;
+  --soft: #e3efed;
+  --ink: #1b1a19;
+  --muted: #47443f;
+  --line: #7a756d;
+  --brand: #0f5f5c;
+  --brand-ink: #ffffff;
+  --danger: #b3261e;
+  --danger-ink: #ffffff;
+  --focus: #1d4ed8;
+}
+
+:root[data-contrast='high'] {
+  --page: #000000;
+  --card: #000000;
+  --soft: #1a1a1a;
+  --ink: #ffffff;
+  --muted: #ffffff;
+  --line: #ffffff;
+  --brand: #ffe600;
+  --brand-ink: #000000;
+  --danger: #ff8a80;
+  --danger-ink: #000000;
+  --focus: #00e5ff;
+}
+
+@theme inline {
+  --color-page: var(--page);
+  --color-card: var(--card);
+  --color-soft: var(--soft);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-brand-ink: var(--brand-ink);
+  --color-danger: var(--danger);
+  --color-danger-ink: var(--danger-ink);
+}
+
+/* Body text is 18px at the smallest setting (AGENTS.md rule 5). Everything is in rem. */
+html {
+  font-size: 112.5%;
+  scroll-padding-top: 6rem; /* keeps focused items clear of the sticky Emergency bar */
+}
+html[data-text='large'] {
+  font-size: 131.25%;
+}
+html[data-text='largest'] {
+  font-size: 150%;
+}
+
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--ink);
+  font-family: system-ui, 'Segoe UI', Roboto, 'Noto Sans', 'Noto Sans Devanagari', 'Nirmala UI', sans-serif;
+  line-height: 1.6;
+}
+
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
